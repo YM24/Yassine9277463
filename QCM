@@ -1,0 +1,136 @@
+#include <stdio.h>
+
+int  main() {
+int score = 0;
+int answer;
+printf("parmi ces 4 proposition la quelle est vraie?\n1/On utilise un bouton poussoir pour limiter le courant dans la diode LED  2/ On utilise une r�sistance pour limiter le courant dans la diode LED3/ On utilise condensateur pour limiter le courant dans la diode LED\n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 2) {
+  score++;
+}
+printf("\n");
+
+printf("Parmi ces 4 proposition la quelle est vraie :\n1/On utilise un bouton poussoir pour limiter le courant dans la diode LED 2/On utilise une r�sistance pour limiter le courant dans la diode LED 3/On utilise condensateur pour limiter le courant dans la diode LED 4/On utilise un transistor pour limiter le courant dans la diode LED\n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 2) {
+  score++;
+}
+printf("\n");
+printf("la patte la courte doit �tre reli�e � la polarit� positive :\n1/Vrai 2/Faux" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 2) {
+  score++;
+}
+printf("\n");
+
+printf("Quel est le microcontr�leur utilis� sur l�Arduino Uno ?\n1/ATmega328 2/ATmega32u4 3/ATmega2560 4/ATmega168\n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 1) {
+  score++;
+}
+printf("\n");
+
+printf("La partie setup() d'un programme sur Arduino se r�p�te � l'infini.\n1/Vrai 2/Faux\n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 2) {
+  score++;
+}
+printf("\n");
+
+printf("Pour mettre la broche 9 en sortie on �crit quoi?\n1/pinMode(9, OUTPUT); 2/pinMode(9, output); 3/pinMode(9, INPUT); 4/pinMode(9, input); 5/digitalWrite(9, LOW); 6/digitalWrite(9, HIGH) \n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 1) {
+  score++;
+}
+printf("\n");
+
+printf("la fonction digitalWrite() permet :\n1/de programmer une E/S en sortie 2/de changer l��tat logique d�une sortie 3/d��crire vers la liaison s�rie \n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 2) {
+  score++;
+}
+printf("\n");
+
+printf("Pour pouvoir utiliser le pin analogique A0 de l'Arduino comme sortie , il faut declarer la focntion suivante dans le bloc Setup(): pinMode (A0,OUTPUT)\n1/Vrai 2/Faux \n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 2) {
+  score++;
+}
+printf("\n");
+
+printf("Pour piloter une sortie PWM on utilise la fonction :\n1/analogWrite () ; 2/digitalWrite() ; \n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 1) {
+  score++;
+}
+printf("\n");
+
+printf("parmi ces 2 proposition la quelle est vraie :\n1/Une sortie PWM permet de faire varier le rapport cyclique de signal 2/Une sortie PWM permet varier la tension du signal de sortie \n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 1) {
+  score++;
+}
+printf("\n");
+
+printf("Une sortie PWM permet varier la tension du signal de sortie:\n1/Vrai 2/Faux \n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 1)     {
+  score++;
+}
+printf("\n");
+
+printf("Les pins analogiques de l�Arduino sont d�finis comme :\n1/Entr�es/sorties 2/Entr�es 3/Sorties\n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 2)     {
+  score++;
+}
+printf("\n");
+
+printf("Que fait le programme suivant ? \n1/Il allume la LED 13 durant 500 seconde et l'�teint durant 1000 seconde, une seule fois. 2/ll allume la LED 13 durant 1/2 de seconde et l'�teint durant une seconde, r�p�t� � l'infini \n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 2) {
+  score++;
+}
+printf("\n");
+
+printf("Que fait le programme suivant ?\n1/Il positionne le servo � 0�, attend 20 secondes puis le positionne � 179� et attend 20 secondes. Il r�p�te cette action � l'infini 2/Il positionne le servo � 0�, attend 2 secondes puis le positionne � 179� et attend 2 secondes. Il r�p�te cette action � l'infini. 3/Il positionne le servo � 0�, attend 200 millisecondes puis le positionne � 179� et attend 200 millisecondes. Il r�p�te cette action � l'infini. 4/Il ne fait rien car il contient une erreur. \n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 4)     {
+  score++;
+}
+printf("\n");
+
+printf("quelle est le capteur de temperature :\n1/Ultrason 2/LM35 3/Transistor \n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 2)     {
+  score++;
+}
+printf("\n");
+
+printf("La commande serial.print() permet de :\n1/d'envoyer sur la liaison serie un texte 2/d'�crire dans un tableau 3/d'imprimer le programme \n" );
+printf("YOUR answer is:" );
+scanf("%d",&answer );
+if (answer == 1)     {
+  score++;
+}
+printf("\n");
+
+printf("your score is %d\n",score );
+
+  return 0;
+}
